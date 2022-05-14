@@ -27,11 +27,19 @@ function Contact() {
         }
       }
     }
+
+    if (!errorMessage) {
+      setFormState({ ...formState, [e.target.name]: e.target.value });
+    }
   }
 
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(formState);
+
+    // if all is valid, open email
+    if (!errorMessage) {
+      window.location.href = `mailto:waingram96@gmail.com?subject=Contact%20from%20${formState.name}&body=${formState.message}`;
+    }
   }
 
   return (
@@ -45,7 +53,7 @@ function Contact() {
         <div className="d-flex flex-column w-25">
           <label htmlFor="name">Name:</label>
           <input
-            style={{ width: `300px;` }}
+            style={{ width: `300px` }}
             type="text"
             name="name"
             defaultValue={name}
