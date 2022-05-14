@@ -35,19 +35,6 @@ function About() {
           <img src={me} style={{ width: `300px`, height: `300px` }} alt="me" />
         </div>
       </div>
-      <h3>Skills</h3>
-      <p>
-        From the Vanderbilt Coding Bootcamp in particular, I have experience
-        with the following:
-      </p>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>jQuery</li>
-        <li>Bootstrap</li>
-        <li>Use of Web- and Server-Sider APIs</li>
-      </ul>
     </section>
   );
 }

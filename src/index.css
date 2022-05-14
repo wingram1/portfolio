@@ -104,6 +104,10 @@ img {
   border: 2px solid aliceblue;
 }
 
+a {
+  color: inherit;
+}
+
 section {
   display: flex;
   flex-direction: column;

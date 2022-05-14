@@ -59,8 +59,12 @@ function ProjectList() {
             alt={project.alt}
             style={{ width: `400px`, height: `250px` }}
           ></img>
-          <a href={project.deployed}>Deployed Application</a>
-          <a href={project.github}>GitHub Repository</a>
+          <a className="link" href={project.deployed}>
+            Deployed Application
+          </a>
+          <a className="link" href={project.github}>
+            GitHub Repository
+          </a>
         </div>
       ))}
     </div>
