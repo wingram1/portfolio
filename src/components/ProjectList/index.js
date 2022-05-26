@@ -2,6 +2,7 @@ import React from "react";
 
 import dripPlanner from "../../assets/images/drip-planner.png";
 import up2bar from "../../assets/images/up2bar.png";
+import flexLog from "../../assets/images/flexlog.png";
 
 function ProjectList() {
   const projects = [
@@ -20,11 +21,11 @@ function ProjectList() {
       github: "https://github.com/wingram1/up2bar",
     },
     {
-      title: "project 3",
-      src: "../../assets/images/",
-      alt: "",
-      deployed: "",
-      github: "",
+      title: "flexLog",
+      src: flexLog,
+      alt: "FlexLog screenshot",
+      deployed: "https://wingram1.github.io/FlexLog",
+      github: "https://github.com/wingram1/FlexLog",
     },
     {
       title: "project 4",
