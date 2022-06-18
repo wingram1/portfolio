@@ -1,21 +1,24 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2bcb3a55.css",
-    "main.js": "/portfolio/static/js/main.b8016700.js",
+    "main.js": "/portfolio/static/js/main.19095ab6.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/me.jpg": "/portfolio/static/media/me.2710cf8990b5689e69e2.jpg",
     "static/media/drip-planner.png": "/portfolio/static/media/drip-planner.2323eb85e1d2b8b2146d.png",
-    "static/media/ingram-resume.pdf": "/portfolio/static/media/ingram-resume.9a417495a2557a3e2c83.pdf",
+    "static/media/ingram-resume.pdf": "/portfolio/static/media/ingram-resume.84b54d51810739def107.pdf",
+    "static/media/book-search-engine.png": "/portfolio/static/media/book-search-engine.10dce93b888b0fdcad6f.png",
     "static/media/up2bar.png": "/portfolio/static/media/up2bar.42c0725f456e3faa7a21.png",
+    "static/media/social-network-api.png": "/portfolio/static/media/social-network-api.a5a730ea913d59a84fef.png",
     "static/media/flexlog.png": "/portfolio/static/media/flexlog.f598362dc4374e2a5342.png",
+    "static/media/employee-tracker.png": "/portfolio/static/media/employee-tracker.b71547027261237d8cdf.png",
     "static/media/stack.png": "/portfolio/static/media/stack.0123b8df35f2e7d20bc8.png",
     "index.html": "/portfolio/index.html",
     "main.2bcb3a55.css.map": "/portfolio/static/css/main.2bcb3a55.css.map",
-    "main.b8016700.js.map": "/portfolio/static/js/main.b8016700.js.map",
+    "main.19095ab6.js.map": "/portfolio/static/js/main.19095ab6.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2bcb3a55.css",
-    "static/js/main.b8016700.js"
+    "static/js/main.19095ab6.js"
   ]
 }
