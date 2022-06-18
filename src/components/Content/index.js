@@ -9,8 +9,8 @@ function Content({ currentPage }) {
 
   // get currentPage, return corresponding component
   return (
-    <main className="px-3">
-      <h1>{name}</h1>
+    <main className="content">
+      <h1 className="content-name">{name}</h1>
       {name === "About" && <About />}
       {name === "Portfolio" && <Portfolio />}
       {name === "Resume" && <Resume />}

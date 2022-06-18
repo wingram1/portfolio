@@ -41,6 +41,10 @@ header h1 {
   font-size: 48px;
 }
 
+.content-name {
+  font-size: 40px;
+}
+
 .contact {
   display: flex;
   flex-direction: row;
@@ -75,6 +79,9 @@ main {
   min-height: 79vh;
   height: fit-content;
   width: 100%;
+  max-width: 1200px;
+  padding: 10px;
+  margin: 0 auto;
 }
 
 form div {

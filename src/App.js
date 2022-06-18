@@ -9,19 +9,19 @@ function App() {
   const [pages] = useState([
     {
       name: "About",
-      desc: "Hello from About",
+      // desc: "Hello from About",
     },
     {
       name: "Portfolio",
-      desc: `Hello from Portfolio`,
+      // desc: `Hello from Portfolio`,
     },
     {
       name: "Resume",
-      desc: `Hello from Resume`,
+      // desc: `Hello from Resume`,
     },
     {
       name: "Contact",
-      desc: `Hello from Content`,
+      // desc: `Hello from Content`,
     },
   ]);
 
