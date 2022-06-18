@@ -1,5 +1,5 @@
 import React from "react";
-import me from "../../assets/images/me.jpg";
+import me from "../../assets/images/me-2.jpg";
 
 function About() {
   return (
@@ -8,31 +8,31 @@ function About() {
         <div className="d-flex flex-column">
           <h2>About Me</h2>
           <p>
-            Currently enrolled in the Vanderbilt Full-Stack Coding Bootcamp, I
-            am an aspiring web developer. At the ripe young age of 25, I've had
-            experience in various job markets including the industries of music,
-            education, trucking, and supply chain.
+            Full-stack web developer eager to find new ways to engineer
+            innovative and intuitive user experiences. With a colorful
+            background in music, education, and supply chain, I bring to the
+            table a fresh perspective towards communication and problem-solving.
+            Expertise working in small teams to accomplish objectives acquired
+            in team truck driving and warehouse work. My passion for finding
+            creative solutions to real-world problems is what brought me to web
+            development.
           </p>
-          <p>I also have various hobbies including:</p>
-          <ul>
-            <li>
-              <strong>Music:</strong> I play primarily French horn, dabble in
-              piano/voice, and compose here and there on the side
-            </li>
-            <li>
-              <strong>Video games:</strong> A player and developer, I have
-              participated in three game jams with a group of like-minded
-              individuals with our sights on future jams
-            </li>
-            <li>
-              <strong>Running:</strong> I ran a half-marathon in November 2020.
-              I have a dream of one day running a marathon, but I can't seem to
-              stay un-injured!
-            </li>
-          </ul>
+          <p>
+            Graduated with a certificate in Full-Stack Web Development from
+            Vanderbilt University. Specialized in the MERN stack,
+            object-oriented programming, and agile project management.
+          </p>
+          <p>
+            Bachelor of Music in Music Education - Instrumental from University
+            of Memphis.
+          </p>
         </div>
         <div className="pt-2 secondary-div">
-          <img src={me} style={{ width: `300px`, height: `300px` }} alt="me" />
+          <img
+            src={me}
+            style={{ width: `300px`, height: `300px`, margin: `10px` }}
+            alt="me"
+          />
         </div>
       </div>
     </section>
