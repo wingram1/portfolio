@@ -28,7 +28,6 @@ header {
   align-items: center;
 
   height: fit-content;
-  padding: 15px 20px 0 20px;
 
   background-color: aliceblue;
   color: navy;
@@ -39,6 +38,7 @@ header h1 {
   width: 100%;
   text-align: start;
   font-size: 48px;
+  padding: 15px 20px 0 20px;
 }
 
 .content-name {
@@ -47,15 +47,35 @@ header h1 {
 
 .contact {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: end;
   align-items: center;
+  margin: 0 auto;
   width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
 }
 
-.contact a,
-.contact p {
-  margin: 0 0 0 15px;
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#contact-form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+#contact-form input {
+  width: 300px;
+}
+
+#contact-form textarea {
+  border-radius: 4px;
+  width: 300px;
 }
 
 nav {
@@ -82,10 +102,6 @@ main {
   max-width: 1200px;
   padding: 10px;
   margin: 0 auto;
-}
-
-form div {
-  max-width: 25%;
 }
 
 footer {
@@ -115,6 +131,10 @@ a {
   color: inherit;
 }
 
+button {
+  min-width: fit-content;
+}
+
 section {
   display: flex;
   flex-direction: column;
@@ -139,6 +159,11 @@ section h4 {
   width: fit-content;
 }
 
+.about-content {
+  display: flex;
+  flex-direction: row;
+}
+
 .screenshot-container {
   width: fit-content;
   margin: 0 auto;
@@ -151,10 +176,6 @@ section h4 {
   margin: 20px 0 20px 0;
 }
 
-#contact-me {
-  margin-bottom: 0;
-}
-
 .email {
   color: lightblue;
   margin-top: 100px;
@@ -164,10 +185,45 @@ section h4 {
   width: 50%;
 }
 
+.project-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.project {
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.project img {
+  max-width: 600px;
+  width: 90%;
+  height: 350px;
+  margin: 5px auto;
+}
+
+.link {
+  width: fit-content;
+  margin: 3px auto;
+}
+
 .resume-container {
   margin: 0 auto;
   width: 100%;
   height: 1130px;
+}
+
+@media screen and (max-width: 992px) {
+  .content {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -191,6 +247,10 @@ section h4 {
     width: 100% !important;
   }
 
+  #about-me {
+    flex-direction: column;
+  }
+
   .contact-subsection {
     flex-direction: column !important;
     margin-left: 10px;
@@ -199,5 +259,32 @@ section h4 {
 
   .contact-subsection p {
     margin-left: 0;
+  }
+
+  .project {
+    width: 100%;
+    border: 0px;
+  }
+
+  .resume-container {
+    max-height: 800px;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .project img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .resume-container {
+    max-height: 620px;
+  }
+
+  #contact-form,
+  #contact-form div,
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
   }
 }

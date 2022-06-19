@@ -4,7 +4,7 @@ import me from "../../assets/images/me-2.jpg";
 function About() {
   return (
     <section id="about-me" className="d-flex flex-column">
-      <div className="d-flex flex-row sub-section">
+      <div className="about-content sub-section">
         <div className="d-flex flex-column">
           <h2>About Me</h2>
           <p>

@@ -180,18 +180,14 @@ function ProjectList() {
   ];
 
   return (
-    <div className="row">
+    <div className="project-list">
       {projects.map((project, i) => (
         <div
-          className="border w-50 py-3 d-flex flex-column"
+          className="project border py-3 d-flex flex-column"
           key={`project-${i}`}
         >
           <h3>{project.title}</h3>
-          <img
-            src={project.src}
-            alt={project.alt}
-            style={{ width: `90%`, height: `300px`, margin: `5px auto` }}
-          ></img>
+          <img src={project.src} alt={project.alt}></img>
 
           {project.desc ? <>{project.desc}</> : <></>}
           {project.deployed ? (

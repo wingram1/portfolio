@@ -43,24 +43,20 @@ function Contact() {
   }
 
   return (
-    <section>
+    <section className="contact">
       <h1 data-testid="h1tag">Contact me</h1>
-      <form
-        className="d-flex flex-column pl-4 justify-content-center"
-        id="contact-form"
-        onSubmit={handleSubmit}
-      >
-        <div className="d-flex flex-column w-25">
+      <form id="contact-form" onSubmit={handleSubmit}>
+        <div>
           <label htmlFor="name">Name:</label>
           <input
-            style={{ width: `300px` }}
+
             type="text"
             name="name"
             defaultValue={name}
             onChange={handleChange}
           />
         </div>
-        <div className="d-flex flex-column w-25">
+        <div className="email-input">
           <label htmlFor="email">Email address:</label>
           <input
             type="email"
@@ -69,7 +65,7 @@ function Contact() {
             onChange={handleChange}
           />
         </div>
-        <div className="d-flex flex-column w-25">
+        <div>
           <label htmlFor="message">Message:</label>
           <textarea
             name="message"
