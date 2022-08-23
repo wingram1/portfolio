@@ -13,7 +13,7 @@ function ProjectList() {
       title: "Drip Planner",
       src: dripPlanner,
       alt: "drip-planner screenshot",
-      deployed: "https://wingram1.github.io/drip-planner/",
+      deployed: "https://github.com/VCB-Projects/drip-planner",
       github: "https://github.com/wingram1/drip-planner",
       desc: (
         <div>
